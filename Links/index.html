@@ -3,21 +3,21 @@
 <head>
   <meta charset="UTF-8">
   		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet"  href="styles.css">
   		<title>SmartChess</title>
 </head>
 <body>
-  <!-- Navigation tab -->
- <div class="top_menu">
-  <div class="item_menu"><a href ="">Главная</a></div>
-  <div class="item_menu"><a href ="">Курсы</a></div>
-  <div class="item_menu"><a href ="">Тренеры</a></div>
-  <div class="item_menu"><a href ="">Контакты</a></div>
-  <div class="item_menu"><a href ="">Магазин</a></div>
-</div>
- <!-- Name -->
+    <ul class="nav_bar">
+      <li><a class="active" href="index.html"><strong>Главная</strong></a></li>
+      <li><a href="About.html"><strong>О школе</strong></a></li>
+      <li><a href="Trainers.html"><strong>Тренеры</strong></a></li>
+      <li><a href="Shop.html"><strong>Магазин</strong></a></li>
+      <li><a href="Contacts.html"><strong>Контакты</strong></a></li>
+    </ul>
+<hr>
  <h1>Шахматная Онлайн-школа<br>
  SmartChess</h1>
+ <hr>
  <div class="about_palet about_palet_also">
   <div class="about_palet_item"><strong>Наши преимущества:</strong></div>
   <div class="about_palet_item"><li><span>Проффесионализм</span>:В нашем штате высоко — квалифицированные преподаватели с большим стажем работы.</li></div>
@@ -28,13 +28,13 @@
   <div class="about_palet_item"><li><span>Мультиязычность</span>:Наша школа позволяет проводить обучение на разных языках.</li></div>
   </div>
  <!-- Image Palet -->
- <div class="image_palet">
- <img class="image_palet_item" src="Images\chess_1.jpg"width="30%">
-	<img class="image_palet_item" src="Images\chess_2.jpg"width="30%">
-	<img class="image_palet_item" src="Images\chess_3.jpg"width="30%">
-  <img class="image_palet_item" src="Images\chess_4.jpeg"width="30%">
-  <img class="image_palet_item" src="Images\chess_5.jpg"width="30%">
-  <img class="image_palet_item" src="Images\chess_6.jpg"width="30%">
+ <div>
+ <img src="Images\chess_1.jpg"width="30%">
+	<img src="Images\chess_2.jpg"width="30%">
+	<img src="Images\chess_3.jpg"width="30%">
+  <img src="Images\chess_4.jpeg"width="30%">
+  <img src="Images\chess_5.jpg"width="30%">
+  <img src="Images\chess_6.jpg"width="30%">
 </div>
 <!-- Price Palet -->
 <div>
@@ -43,41 +43,87 @@
        <td align="center">Курс</td>
 	   <td align="center">Цена</td>
 	   <td align="center">Количество занятий</td>
-     <td align="center">В корзину</td>
    </tr>
    <tr>
        <td align="center">Групповые занятия</td>
 	   <td align="center">1600-2800р</td>
 	   <td align="center">4-8 занятий</td>
-      <td align="center"><style{color:white}a>Купить</a></td>
    </tr>
    <tr>
        <td align="center">Первый разряд</td>
 	   <td align="center">4000-9600р</td>
 	   <td align="center">4-12 занятий</td>
-     <td align="center"><style{color:white}a>Купить</a></td>
    </tr>
    <tr>
        <td align="center">Кмс</td>
 	   <td align="center">4400-12000р</td>
 	   <td align="center">4-12 занятий</td>
-     <td align="center"><style{color:white}a>Купить</a></td>
    </tr>
    <tr>
        <td align="center">Мастер Фидэ</td>
 	   <td align="center">5600-14400р</td>
 	   <td align="center">4-12 занятий</td>
-     <td align="center"><style{color:white}a>Купить</a></td>
      <tr>
          <td align="center">Международный мастер</td>
   	   <td align="center">6800-18000р</td>
   	   <td align="center">4-12 занятий</td>
-       <td align="center"><style{color:white}a>Купить</a></td>
    </tr>
 </table>
 <div class="button_container">
 <div class="button_item"><button>ЗАПИШИТЕСЬ НА ПРОБНУЮ ТРЕНИРОВКУ!!!</button></div>
 </div>
+<h2 style="align-text:left;">Наши тренеры</h2>
+<div class="container">
+<div class="figure">
+    <img class=scaled src="Images\trainers_1.jpg" height="30%">
+    <p><strong>Игорь Смирнов</strong><br>
+Международный гроссмейстер по шахматам. Играть в шахматы начал с 5 лет.
+индивидуальная тренировка 1-час 3000</p>
+</div>
+<div class="figure">
+  <img class=scaled src="Images\trainers_2.jpg" height="30%">
+    <p><strong>Александра Ботез</strong><br>
+американо-канадская шахматистка и комментатор, стример и ютубер
+индивидуальная тренировка 1-час 1700</p>
+    </div>
+    <div class="figure">
+    <img class=scaled src="Images\trainers_3.webp" height="30%">
+    <p><strong>Элизабет Хармон</strong><br>
+КМС по шахматам. Тренерский стаж – 5 лет
+индивидуальная тренировка 1-час 1500</p>
+    </div>
+    <div class="figure">
+    <img class=scaled src="Images\trainers_4.jpg" height="30%">
+    <p><strong>Каспаров, Гарри Кимович</strong><br>
+международный гроссмейстер по шахматам. Тренерский стаж – 10 лет
+индивидуальная тренировка 1-час 5000</p>
+    </div>
+    <div class="figure hidden">
+    </div>
+    <div class="figure hidden">
+    </div>
+  </div>
+  </div>
+  <h2>Свяжитесь с нами</h2>
+  <p>Наши специалисты всегда готовы ответить на все интересующие вас вопросы. Вы можете связаться с нами любым удобным для вас способом. Мы всегда рады и открыты для сотрудничества.</p>
+  <form class="form" method="post">
+  <fieldset>
+  <label for="name">Ваше имя:</label>
+  <input type="email" name="name" placeholder="Кирилл">
+  <br>
+  <label for="phone">Ваш E-mail:</label>
+  <input type="text" name="phone" placeholder="example@mail.ru">
+  <br>
+  <label for="phone">Ваш телефон:</label>
+  <input type="text" name="phone" placeholder="+7(777)777-77-77">
+  <br>
+  <label for="message">Сообщение:</label>
+  <input type="text" name="message">
+  <br>
+  <button>Отправить</button>
+  </fieldset>
+  </form>
+<hr>
 <!-- Footer -->
  <footer>
  <div class="footer">
