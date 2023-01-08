@@ -6,3 +6,24 @@
   grid-template-columns: 1fr 1fr 1fr;
   border: solid;
 }
+.grid-container {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 300px 300px;
+background-color: #E0F6FF;
+border: 1px dashed #1E96FF;
+}
+@media screen and (max-width: 600px) {
+  .grid-container {grid-template-columns: repeat(2, 1fr);}
+}
+.grid-item {
+background-color: #1E96FF;
+color: #ffffff;
+text-align: center;
+margin: 2px;
+}
+.figure {
+  background-color: black;
+  border: thin silver solid;
+  border-radius: 5px;
+}

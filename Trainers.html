@@ -4,10 +4,11 @@
   <meta charset="UTF-8">
   		<meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet"  href="styles.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   		<title>SmartChess</title>
 </head>
 <body>
-  <div>
+  <nav class="navbar_nav">
     <ul class="nav_bar">
       <li><a href="index.html">Главная</a></li>
       <li><a href="About.html">О школе</a></li>
@@ -15,58 +16,73 @@
       <li><a href="Shop.html">Магазин</a></li>
       <li><a href="Contacts.html">Контакты</a></li>
     </ul>
+  </nav>
 <hr>
-<h1>Наша команда!</h1>
+<header>
+<h1>Наша <font style="color:blue;">команда</font>!</h1>
 <p>Наши преподаватели всегда готовы для обучения шахматной игре и гарантируют, что ваш ребенок останется доволен после каждого проведенного урока и с нетерпением будет ждать следующего!</p>
-<div class="container">
-<div class="figure">
-    <img class=scaled src="Images\trainers_1.jpg" height="30%">
-    <p><strong>Игорь Смирнов</strong><br>
+<hr>
+</header>
+<main>
+<div class="grid-container">
+<div class="grid-item">
+  <figure>
+    <img class="figure-img img-fluid" src="Images\trainers_1.jpg">
+    <figcaption><strong>Игорь Смирнов</strong><br>
 Международный гроссмейстер по шахматам. Играть в шахматы начал с 5 лет.
-индивидуальная тренировка 1-час 3000</p>
+индивидуальная тренировка 1-час 3000</figcaption>
+ <figure>
 </div>
-<div class="figure">
-  <img class=scaled src="Images\trainers_2.jpg" height="30%">
-    <p><strong>Александра Ботез</strong><br>
+<div class="grid-item">
+  <figure class="figure">
+  <img class="figure-img img-fluid" src="Images\trainers_2.jpg">
+    <figcaption class=""><strong>Александра Ботез</strong><br>
 американо-канадская шахматистка и комментатор, стример и ютубер
-индивидуальная тренировка 1-час 1700</p>
+индивидуальная тренировка 1-час 1700</figcaption>
+</figure>
     </div>
-    <div class="figure">
-    <img class=scaled src="Images\trainers_3.webp" height="30%">
-    <p><strong>Элизабет Хармон</strong><br>
+    <div class="grid-item">
+    <figure>
+    <img class="figure-img img-fluid" src="Images\trainers_3.webp">
+    <figcaption><strong>Элизабет Хармон</strong><br>
 КМС по шахматам. Тренерский стаж – 5 лет
-индивидуальная тренировка 1-час 1500</p>
+индивидуальная тренировка 1-час 1500</figcaption>
+</figure>
     </div>
-    <div class="figure">
-    <img class=scaled src="Images\trainers_4.jpg" height="30%">
-    <p><strong>Каспаров, Гарри Кимович</strong><br>
+    <div class="grid-item">
+    <figure>
+    <img class="figure-img img-fluid" src="Images\trainers_4.jpg">
+    <figcaption><strong>Каспаров, Гарри Кимович</strong><br>
 международный гроссмейстер по шахматам. Тренерский стаж – 10 лет
-индивидуальная тренировка 1-час 5000</p>
-    </div>
-    <div class="figure hidden">
-    </div>
-    <div class="figure hidden">
+индивидуальная тренировка 1-час 5000</figcaption>
+    </figure>
     </div>
   </div>
-  </div>
+  <hr>
+</main>
   <!-- Footer -->
    <footer>
    <div class="footer">
-  <div class="footer_item"><h5>
+    <div class="footer_item">
+    <figure class="figure_footer">
+    <img class="footer_image" src="Images\4363846.png" alt="chess_logo">
+     <figcaption>Smart Chess — онлайн-школа шахмат. Мы осуществляем онлайн обучение игре в шахматы.</figcaption>
+   </figure>
+     </div>
+  <div class="footer_item"><p>
    Наши контакты:<br>
    +7(987)284-31-69<br>
    smart-chess116@mail.ru<br>
    08:00 — 20:00<br>
   Адрес:<br>
-  г.Королёв, пр-д Королёва, 30</h5>
-</div>
-<div class="footer_item">
-<img src="Images\4363846.png" alt="chess" width="30%" height="50%">
-<h5>Smart Chess — онлайн-школа шахмат, основанная Ассоциацией Профессиональных Тренеров в городе Казань. Мы осуществляем онлайн обучение игре в шахматы.</h5>
+  г.Королёв, пр-д Королёва, 30</p>
 </div>
 </div>
-<div class="copyright"><h5>©Телепнёв Даниил 2022</h5></div>
+<div class="copyright"><p>©Телепнёв Даниил 2022</p></div>
 </div>
 </footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
