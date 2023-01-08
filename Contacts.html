@@ -20,28 +20,28 @@
   <div>
   <div class="contacts">
 <h3><strong>Контакты:</strong></h3>
- <p><strong>Телефон:</strong> +7(987)284-31-69</p>
- <p><strong>E-mail:</strong> smart-chess116@mail.ru</p>
- <p><strong>Адрес:</strong> г.Королёв, пр-д Королёва, 30</p>
+ <p><strong><span>Телефон:</span></strong> +7(987)284-31-69</p>
+ <p><strong><span>E-mail:</span></strong> smart-chess116@mail.ru</p>
+ <p><strong><span>Адрес:</span></strong> г.Королёв, пр-д Королёва, 30</p>
   </div>
   </div>
 <div class="form">
-<form method="post" action="">
+<form method="post" name="myForm">
 <fieldset>
 <h3><strong>Обратная связь:</strong></h3>
 <label for="name">Ваше имя *</label>
-<input type="text" name="name" placeholder="Кирилл">
+<input type="text" name="name" placeholder="Кирилл" required>
 <br>
-<label for="phone">Ваш E-mail *</label>
-<input type="text" name="phone" placeholder="example@mail.ru">
+<label for="email">Ваш E-mail *</label>
+<input type="text" name="email" placeholder="example@mail.ru" required>
 <br>
 <label for="phone">Ваш телефон *</label>
-<input type="text" name="phone" placeholder="+7(777)777-77-77">
+<input type="text" name="phone" placeholder="+7(777)777-77-77" required>
 <br>
 <label for="message">Сообщение</label>
 <textarea name="message" rows="4" cols="50" form="usrform"></textarea>
 <br>
-<input type="submit" name="" value="Отправить">
+<button class="input_button"><a class="no" href="action_page.html">Отправить</a></button>
 </fieldset>
 </form>
 </div>

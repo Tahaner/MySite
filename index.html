@@ -24,6 +24,7 @@
 </header>
 <main>
  <hr>
+ <!-- About Palet -->
  <h2>Наши преимущества</h2>
  <div class="about_palet about_palet_also">
   <div class="about_palet_item"><li><strong>Профессионализм</strong>:В нашем штате высоко — квалифицированные преподаватели с большим стажем работы.</li></div>
@@ -36,42 +37,31 @@
   <hr>
 <!-- Price Palet -->
 <h2>Наши цены</h2>
-<div>
-<table>
-   <tr>
-       <td align="center">Курс</td>
-	   <td align="center">Цена</td>
-	   <td align="center">Количество занятий</td>
-   </tr>
-   <tr>
-       <td align="center">Групповые занятия</td>
-	   <td align="center">1600-2800р</td>
-	   <td align="center">4-8 занятий</td>
-   </tr>
-   <tr>
-       <td align="center">Первый разряд</td>
-	   <td align="center">4000-9600р</td>
-	   <td align="center">4-12 занятий</td>
-   </tr>
-   <tr>
-       <td align="center">Кмс</td>
-	   <td align="center">4400-12000р</td>
-	   <td align="center">4-12 занятий</td>
-   </tr>
-   <tr>
-       <td align="center">Мастер Фидэ</td>
-	   <td align="center">5600-14400р</td>
-	   <td align="center">4-12 занятий</td>
-     <tr>
-         <td align="center">Международный мастер</td>
-  	   <td align="center">6800-18000р</td>
-  	   <td align="center">4-12 занятий</td>
-   </tr>
-</table>
-<div class="button_container">
-<div class="button_item"><button>ЗАПИШИТЕСЬ НА ПРОБНУЮ ТРЕНИРОВКУ!!!</button></div>
+<div class="price_grid">
+  <div  id="item-0">Курс</div>
+  <div  id="item-1">Цена</div>
+  <div  id="item-2">Количество занятий</div>
+  <div  id="item-3">Групповые занятия</div>
+  <div  id="item-4">1600-2800р</div>
+  <div id="item-5">4-8 занятий</div>
+  <div  id="item-6">Кмс</div>
+  <div  id="item-7">4-12 занятий</div>
+  <div  id="item-8">4400-12000р</div>
+  <div  id="item-9">Мастер Фидэ</div>
+  <div  id="item-10">5600-14400р</div>
+  <div  id="item-11">4-12 занятий</div>
+  <div  id="item-14">Международный мастер</div>
+  <div  id="item-13">6800-18000р</div>
+  <div  id="item-12">4-12 занятий</div>
 </div>
 <hr>
+<!-- Puzzle palet-->
+<div class="button_container">
+  <h2>Ежедневная задача</h2><br>
+  <div class="button_item" ><button><a href="chess_puzzle.html"><strong>Проверь свои знания!</strong></a></button></div>
+</div>
+<hr>
+<!-- trainers_1 -->
 <h2>Наши преподаватели</h2>
 <p style="text-align: center;">Преподаватели нашей шахматной школы будут не только хорошими учителеми, а также и отличным друзьями для вашего ребенка.</p>
 <div class="grid-container">
@@ -109,15 +99,16 @@
     </div>
   </div>
   <hr>
+  <!-- Contact us-->
   <h2>Свяжитесь с нами</h2>
   <p>Наши специалисты всегда готовы ответить на все интересующие вас вопросы. Вы можете связаться с нами любым удобным для вас способом. Мы всегда рады и открыты для сотрудничества.</p>
   <div class="grid-contacts">
     <div>
     <div class="contacts">
   <h3><strong>Контакты:</strong></h3>
-   <p><strong>Телефон:</strong> +7(987)284-31-69</p>
-   <p><strong>E-mail:</strong> smart-chess116@mail.ru</p>
-   <p><strong>Адрес:</strong> г.Королёв, пр-д Королёва, 30</p>
+   <p><strong><span>Телефон:</span></strong> +7(987)284-31-69</p>
+   <p><strong><span>E-mail:</span></strong> smart-chess116@mail.ru</p>
+   <p><strong><span>Адрес:</span></strong> г.Королёв, пр-д Королёва, 30</p>
     </div>
     </div>
   <div class="form">
@@ -125,18 +116,18 @@
   <fieldset>
   <h3><strong>Обратная связь:</strong></h3>
   <label for="name">Ваше имя *</label>
-  <input type="text" name="name" placeholder="Кирилл">
+  <input type="text" name="name" placeholder="Кирилл" required>
   <br>
-  <label for="phone">Ваш E-mail *</label>
-  <input type="text" name="phone" placeholder="example@mail.ru">
+  <label for="email">Ваш E-mail *</label>
+  <input type="text" name="email" placeholder="example@mail.ru" required>
   <br>
   <label for="phone">Ваш телефон *</label>
-  <input type="text" name="phone" placeholder="+7(777)777-77-77">
+  <input type="text" name="phone" placeholder="+7(777)777-77-77" required>
   <br>
   <label for="message">Сообщение</label>
   <textarea name="message" rows="4" cols="50" form="usrform"></textarea>
   <br>
-  <input type="submit" name="" value="Отправить">
+  <button class="input_button"><a class="no" href="action_page.html">Отправить</a></button>
   </fieldset>
   </form>
   </div>
