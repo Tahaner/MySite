@@ -368,6 +368,7 @@ display: grid;
 grid-template-columns: repeat(2, 1fr);
 grid-template-rows: repeat(2, 1fr);
 height:auto;
+grid-row-gap: 30px;
 }
 .courses_grid_item {
 border: 2px solid white;
